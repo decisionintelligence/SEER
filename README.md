@@ -1,8 +1,8 @@
 # SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-blue)](https://pytorch.org/)
+ [![ICML](https://img.shields.io/badge/ICML'26-SEER-orange)](https://arxiv.org/pdf/2602.00589)  [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-blue)](https://pytorch.org/)
 
-This code is the official PyTorch implementation of our paper SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement.
+This code is the official PyTorch implementation of our ICML'26 paper **SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement**.
 
 <div align="center">
 <img alt="Logo" src="docs/figures/overview.png" width="100%"/>
@@ -38,3 +38,29 @@ sh ./scripts/SEER_script/ETTh1/SEER.sh
 <div align="center">
 <img alt="Logo" src="docs/figures/main-results.png" width="100%"/>
 </div>
+
+
+## Citation
+
+If you find this repo useful, please cite our paper.
+
+```
+
+@inproceedings{qiu2026seer,
+  title        =   {SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement},
+  author       =   {Qiu, Xiangfei and Liu, Xvyuan and Shen, Tianen and Wu, Xingjian and Cheng, Hanyin and Yang, Bin and Hu, Jilin},
+  booktitle    =   {ICML},
+  year         =   {2026}
+}
+```
+
+
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact:
+
+- [Xiangfei Qiu](https://qiu69.github.io/) (xfqiu@stu.ecnu.edu.cn)
+
+
+Or describe it in Issues.
